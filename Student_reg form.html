@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student register form</title>
+    </head>
+            <style>
+                body
+
+                #full{
+                    background-color: pink;
+                    width: 650px;
+                    height: 650px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                }
+                h1{
+                    text-align: center;
+                }
+                #col{
+                    text-align:justify;
+                   
+                }
+                label{
+                    margin-bottom: 50px;
+                    margin-left: 75px;
+                    
+                    
+                }
+                
+                #r{
+                    width: 273px;
+                    margin-left: 150px;
+                }
+
+                #fit{
+                    width: 123px;
+                    margin-left: 110px;
+                }
+                #set{
+                    width: 130px;
+                }
+                #ft{
+                    width: 275px;
+                    margin-left: 110px;
+                }
+                #dob{
+                    width: 43px;
+                    margin-left: 116px;
+                }
+                #year{
+                    width: 45px;
+                }
+                #mn{
+                    
+                    margin-left: 131px;
+                }
+                #pho{
+                    width: 225px;
+                }
+                #email{
+                    width: 278px;
+                    margin-left: 142px;
+                }
+                
+                #pass{
+                    width: 279px;
+                    margin-left: 134px;
+                }
+                #gen{
+                    margin-left: 148px;
+                }
+                #dep{
+                    
+                    margin-left: 122px;
+                }
+                #it{
+                    margin-left: 10px;
+                }
+                #ece{
+                    margin-left: 10px;
+                }
+                #cv{
+                    margin-left: 10px;
+                }
+                #mec{
+                    margin-left: 10px;
+                }
+                #Course{
+                    width: 285px;
+                    margin-left: 152px;
+                }
+                #stp{
+                    
+                    margin-left: 96px;
+                }
+                #City{
+                    
+                    width: 279px;
+                    margin-left: 170px;
+                }
+                #add{
+                    margin-left: 146px;
+                    width: 279px;
+                    height: 55px;
+                    word-wrap: break-word;
+                }
+                button{
+                    margin-top: 15px;
+                    margin-left: 300px;
+                }
+                button:hover{
+                    background-color: black;
+                    color: beige;
+                }
+                input{
+                    margin-right: auto;
+                }
+
+            </style>
+        <body>
+            <div id="full">
+                <form action="">
+                    <div id="col">
+                        <h1>Student Registration Form</h1>
+
+                        <label  for="">Roll no :</label>
+                        <input id="r" type="text"><br>
+                        <br>
+                        <label  for="">Student name :</label>
+                        <input id="fit" type="text" placeholder="First Name"> - <input id="set" type="text" placeholder="Last Name"><br>
+                        <br>
+                        <label  for="">Father's name :</label>
+                        <input id="ft" type="text"><br>
+                        <br>
+                        <label  for="">Date of birth :</label>
+                        <input id="dob" type="number" min="1" max="31" placeholder="date">
+                        -
+                        <select  type="Month">
+                            <option value="month">Month</option>
+                            <option value="">jan</option>
+                            <option value="">feb</option>
+                            <option value="">mar</option>
+                            <option value="">apr</option>
+                            <option value="">may</option>
+                            <option value="">jun</option>
+                            <option value="">july</option>
+                            <option value="">aug</option>
+                            <option value="">sep</option>
+                            <option value="">oct</option>
+                            <option value="">nov</option>
+                            <option value="">dec</option>
+                        </select>-
+                        <input id="year" type="number" min="1920"  max="2025" placeholder="year"><I>(DD-MM-YYY)</I><br>
+                        <br>
+                        <label   for="">Mobile no :</label>
+                        <select id="mn" name="" id="">
+                            <option value="">+91</option>
+                            <option value="">+65</option>
+                        </select>
+                        <input id="pho"  type="tel"><br>
+                        <br>
+                        <label  for="">Email id :</label>
+                        <input id="email" type="email"><br>
+                        <br>
+                        <label  for="">Password :</label>
+                        <input id="pass" type="password" name="" id=""><br>
+                        <br>
+                        <label  for="">Gender :</label>
+                        <input id="gen" type="radio" name="" id=""> Male
+                        <input type="radio" name="" id=""> Female <br>
+                        <br>
+                        <label  for="">Department :</label>
+                        <input id="dep" type="checkbox" name="" id=""> CSE 
+                        <input id="it" type="checkbox" name="" id=""> IT 
+                        <input id="ece" type="checkbox" name="" id="">ECE 
+                        <input id="cv" type="checkbox" name="" id=""> Civil 
+                        <input id="mec" type="checkbox" name="" id=""> Mech <br>
+                        <br>
+                        <label  for="">Course :</label>
+                        <select id="Course" name="" id="">
+                            <option value="select">----------Select  Current Course's------------</option>
+                            <option value="">Java fullstack</option>
+                            <option value="">Python Fullstack</option>
+                            <option value="">Frontend</option>
+                            <option value="">Backend</option>
+                            <option value="">Ui/Ux</option>
+                        </select> <br><br>
+                        <label  for="">Studwent Photo :</label>
+                        <input id="stp" type="file" name="" id=""><br>
+                        <br>
+                        <label  for="">City :</label>
+                        <input id="City" type="text" name="" id=""> <br>
+                        <br>
+                        <label  for="">Address :</label>
+                        <input id="add" type="text" name="" id="" ><br>
+                        <br>
+                        <button type="submit">Register</button>
+
+
+                    </div>
+                </form>
+            </div>
+        </body>
+</html>
